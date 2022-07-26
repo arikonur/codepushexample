@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "codepushexa",
+    "slug": "codepushexa",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "codepushexa"
+}
