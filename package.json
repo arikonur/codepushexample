@@ -1,5 +1,6 @@
 {
   "main": "index.js",
+  "name": "codepushexample",
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
@@ -7,6 +8,10 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-masked-view/masked-view": "^0.2.2",
+    "@react-navigation/bottom-tabs": "^5.11.8",
+    "@react-navigation/native": "^5.9.3",
+    "@react-navigation/stack": "^5.14.3",
     "appcenter": "4.4.5",
     "appcenter-analytics": "4.4.5",
     "appcenter-crashes": "4.4.5",
@@ -17,7 +22,15 @@
     "react-dom": "17.0.2",
     "react-native": "0.68.2",
     "react-native-code-push": "^7.0.4",
-    "react-native-web": "0.17.7"
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-onesignal": "^4.4.1",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area-context": "3.1.9",
+    "react-native-screens": "~2.15.2",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-star-rating": "^1.1.0",
+    "react-native-web": "0.17.7",
+    "react-native-webview": "^11.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
